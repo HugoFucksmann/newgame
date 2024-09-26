@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://hsyepcn13i4i"]
+
+[ext_resource type="Script" path="res://enemys/baseEnemy.gd" id="1_fpv46"]
+[ext_resource type="Texture2D" uid="uid://cym2at6cq4n7s" path="res://enemys/assets/3 v1.png" id="2_thqmv"]
+
+[resource]
+script = ExtResource("1_fpv46")
+title = "EyeLeg"
+texture = ExtResource("2_thqmv")
+health = 0.0
+damage = 3.0

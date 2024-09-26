@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Enemy" load_steps=3 format=3 uid="uid://bla0g2o7yl6dc"]
+
+[ext_resource type="Script" path="res://enemys/baseEnemy.gd" id="1_vrps7"]
+[ext_resource type="Texture2D" uid="uid://bhfth4wxacvrc" path="res://enemys/assets/2 v1.png" id="2_iv0fi"]
+
+[resource]
+script = ExtResource("1_vrps7")
+title = "Cube"
+texture = ExtResource("2_iv0fi")
+health = 0.0
+damage = 2.0
